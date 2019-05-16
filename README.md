@@ -1,2 +1,2 @@
 # goodservice-ios
-iOS Version of the http://goodservice.io app
+iOS Version of the https://goodservice.io app
