@@ -21,6 +21,7 @@
 		2AA86D722290CCF100C10FD7 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D712290CCF100C10FD7 /* Train.swift */; };
 		2AA86D742290CD3200C10FD7 /* Trains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D732290CD3200C10FD7 /* Trains.swift */; };
 		2AA86D772291BB9500C10FD7 /* TrainLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D762291BB9500C10FD7 /* TrainLabel.swift */; };
+		2AA86D792291C23100C10FD7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D782291C23100C10FD7 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		2AA86D712290CCF100C10FD7 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
 		2AA86D732290CD3200C10FD7 /* Trains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trains.swift; sourceTree = "<group>"; };
 		2AA86D762291BB9500C10FD7 /* TrainLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainLabel.swift; sourceTree = "<group>"; };
+		2AA86D782291C23100C10FD7 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				2AA86D762291BB9500C10FD7 /* TrainLabel.swift */,
+				2AA86D782291C23100C10FD7 /* UIColorExtension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				2AA86D722290CCF100C10FD7 /* Train.swift in Sources */,
 				2AA86D6C229097C200C10FD7 /* TrainData.swift in Sources */,
 				2AA86D702290C3BE00C10FD7 /* TrainAPI.swift in Sources */,
+				2AA86D792291C23100C10FD7 /* UIColorExtension.swift in Sources */,
 				2AA86D3C228F916F00C10FD7 /* LinesViewController.swift in Sources */,
 				2AA86D3A228F905C00C10FD7 /* TrainController.swift in Sources */,
 			);

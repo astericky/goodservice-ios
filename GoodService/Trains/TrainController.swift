@@ -8,13 +8,17 @@
 
 import UIKit
 
-class TrainController: UITableViewController {
+class TrainController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+  
+  @IBOutlet weak var tableView: UITableView!
   
   let trainCellIdentifier = "TrainCell"
   var trains = [Train]()
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    tableView.dataSource = self
+    tableView.delegate = self
     let trainAPI = TrainAPI()
     trainAPI.getTrainStatus(completion: getTrainData)
   }
@@ -22,26 +26,23 @@ class TrainController: UITableViewController {
   // MARK: - Train Networking
   func getTrainData(with trainData: TrainData) {
     trains = trainData.status.getTrains()
-    tableView.reloadData()
+    self.tableView.reloadData()
   }
   
   // MARK: - Table view data source
-  override func numberOfSections(in tableView: UITableView) -> Int {
+  func numberOfSections(in tableView: UITableView) -> Int {
     return 1
   }
   
-  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return trains.count
   }
   
-  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: trainCellIdentifier, for: indexPath) as! TrainCell
 
     cell.trainLabel!.text = trains[indexPath.row].name
     
     return cell
   }
-  
-
-  
 }
