@@ -17,6 +17,7 @@ class TrainCell: UITableViewCell {
   var train: Train? {
     didSet {
       trainLabel.text = train?.name
+      trainDesinationLabel.text = train?.alternateName ?? ""
       serviceStatusLabel.text = train?.status
     }
   }
