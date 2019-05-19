@@ -1,0 +1,2880 @@
+{
+  "status": {
+      "1": {
+          "name": "1",
+          "color": "#db2828",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 48
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 1
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 1
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 1
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 9
+                  }
+              ],
+              "last_day": {
+                  "good_service": 67,
+                  "service_change": 1123,
+                  "not_good": 175,
+                  "delay": 46,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 660,
+                      "service_change": 5,
+                      "not_good": 734,
+                      "delay": 31,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 844,
+                      "service_change": 0,
+                      "not_good": 571,
+                      "delay": 22,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 505,
+                      "service_change": 59,
+                      "not_good": 797,
+                      "delay": 35,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 517,
+                      "service_change": 79,
+                      "not_good": 735,
+                      "delay": 38,
+                      "no_service": 2
+                  },
+                  {
+                      "good_service": 605,
+                      "service_change": 69,
+                      "not_good": 618,
+                      "delay": 47,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 613,
+                      "service_change": 126,
+                      "not_good": 506,
+                      "delay": 43,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 421,
+                      "service_change": 95,
+                      "not_good": 728,
+                      "delay": 72,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 2.1,
+              "last_week_avg": 3.2
+          },
+          "delays": {
+              "last_day": {
+                  "count": 34,
+                  "avg_mins": 7.2,
+                  "max_mins": 12
+              },
+              "last_week": {
+                  "count": 170,
+                  "avg_mins": 7.3,
+                  "max_mins": 66
+              }
+          }
+      },
+      "2": {
+          "name": "2",
+          "color": "#db2828",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Good",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Not Good",
+                      "count": 3
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 2
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 1
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 2
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 50
+                  }
+              ],
+              "last_day": {
+                  "good_service": 100,
+                  "service_change": 51,
+                  "not_good": 1220,
+                  "delay": 40,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 5,
+                      "service_change": 143,
+                      "not_good": 1200,
+                      "delay": 82,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 36,
+                      "service_change": 183,
+                      "not_good": 1190,
+                      "delay": 28,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 44,
+                      "service_change": 85,
+                      "not_good": 1151,
+                      "delay": 116,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 34,
+                      "service_change": 87,
+                      "not_good": 1136,
+                      "delay": 112,
+                      "no_service": 2
+                  },
+                  {
+                      "good_service": 15,
+                      "service_change": 118,
+                      "not_good": 1097,
+                      "delay": 109,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 10,
+                      "service_change": 153,
+                      "not_good": 981,
+                      "delay": 144,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 50,
+                      "service_change": 60,
+                      "not_good": 1080,
+                      "delay": 126,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 5.6,
+              "last_week_avg": 7.1
+          },
+          "delays": {
+              "last_day": {
+                  "count": 27,
+                  "avg_mins": 7.7,
+                  "max_mins": 18
+              },
+              "last_week": {
+                  "count": 455,
+                  "avg_mins": 11,
+                  "max_mins": 364
+              }
+          }
+      },
+      "3": {
+          "name": "3",
+          "color": "#db2828",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 60
+                  }
+              ],
+              "last_day": {
+                  "good_service": 50,
+                  "service_change": 876,
+                  "not_good": 449,
+                  "delay": 36,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 480,
+                      "not_good": 889,
+                      "delay": 58,
+                      "no_service": 3
+                  },
+                  {
+                      "good_service": 7,
+                      "service_change": 569,
+                      "not_good": 823,
+                      "delay": 30,
+                      "no_service": 8
+                  },
+                  {
+                      "good_service": 78,
+                      "service_change": 375,
+                      "not_good": 824,
+                      "delay": 119,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 71,
+                      "service_change": 431,
+                      "not_good": 793,
+                      "delay": 71,
+                      "no_service": 5
+                  },
+                  {
+                      "good_service": 106,
+                      "service_change": 449,
+                      "not_good": 669,
+                      "delay": 113,
+                      "no_service": 2
+                  },
+                  {
+                      "good_service": 128,
+                      "service_change": 416,
+                      "not_good": 622,
+                      "delay": 122,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 71,
+                      "service_change": 382,
+                      "not_good": 793,
+                      "delay": 70,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 4.4,
+              "last_week_avg": 4.6
+          },
+          "delays": {
+              "last_day": {
+                  "count": 15,
+                  "avg_mins": 9.1,
+                  "max_mins": 27
+              },
+              "last_week": {
+                  "count": 312,
+                  "avg_mins": 9.9,
+                  "max_mins": 88
+              }
+          }
+      },
+      "4": {
+          "name": "4",
+          "color": "#21ba45",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 13
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 14
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 1
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 6
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 18
+                  }
+              ],
+              "last_day": {
+                  "good_service": 14,
+                  "service_change": 1104,
+                  "not_good": 237,
+                  "delay": 56,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 111,
+                      "service_change": 575,
+                      "not_good": 568,
+                      "delay": 170,
+                      "no_service": 6
+                  },
+                  {
+                      "good_service": 140,
+                      "service_change": 641,
+                      "not_good": 560,
+                      "delay": 87,
+                      "no_service": 9
+                  },
+                  {
+                      "good_service": 124,
+                      "service_change": 558,
+                      "not_good": 639,
+                      "delay": 75,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 103,
+                      "service_change": 653,
+                      "not_good": 490,
+                      "delay": 119,
+                      "no_service": 6
+                  },
+                  {
+                      "good_service": 118,
+                      "service_change": 660,
+                      "not_good": 444,
+                      "delay": 115,
+                      "no_service": 2
+                  },
+                  {
+                      "good_service": 93,
+                      "service_change": 625,
+                      "not_good": 453,
+                      "delay": 117,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 96,
+                      "service_change": 642,
+                      "not_good": 471,
+                      "delay": 107,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 7.7,
+              "last_week_avg": 6.5
+          },
+          "delays": {
+              "last_day": {
+                  "count": 37,
+                  "avg_mins": 7.7,
+                  "max_mins": 56
+              },
+              "last_week": {
+                  "count": 397,
+                  "avg_mins": 16.6,
+                  "max_mins": 397
+              }
+          }
+      },
+      "5": {
+          "name": "5",
+          "color": "#21ba45",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 12
+                  },
+                  {
+                      "status": "No Service",
+                      "count": 1
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 1
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 1
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 45
+                  }
+              ],
+              "last_day": {
+                  "good_service": 259,
+                  "service_change": 914,
+                  "not_good": 233,
+                  "delay": 4,
+                  "no_service": 1
+              },
+              "last_week": [
+                  {
+                      "good_service": 615,
+                      "service_change": 64,
+                      "not_good": 691,
+                      "delay": 46,
+                      "no_service": 12
+                  },
+                  {
+                      "good_service": 814,
+                      "service_change": 135,
+                      "not_good": 456,
+                      "delay": 14,
+                      "no_service": 18
+                  },
+                  {
+                      "good_service": 342,
+                      "service_change": 474,
+                      "not_good": 532,
+                      "delay": 40,
+                      "no_service": 7
+                  },
+                  {
+                      "good_service": 337,
+                      "service_change": 409,
+                      "not_good": 498,
+                      "delay": 121,
+                      "no_service": 6
+                  },
+                  {
+                      "good_service": 348,
+                      "service_change": 316,
+                      "not_good": 599,
+                      "delay": 75,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 303,
+                      "service_change": 315,
+                      "not_good": 610,
+                      "delay": 60,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 329,
+                      "service_change": 290,
+                      "not_good": 613,
+                      "delay": 84,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 9.7,
+              "last_week_avg": 5.4
+          },
+          "delays": {
+              "last_day": {
+                  "count": 4,
+                  "avg_mins": 6.8,
+                  "max_mins": 9
+              },
+              "last_week": {
+                  "count": 258,
+                  "avg_mins": 7,
+                  "max_mins": 24
+              }
+          }
+      },
+      "6": {
+          "name": "6",
+          "color": "#21ba45",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Good",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Not Good",
+                      "count": 6
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 6
+                  },
+                  {
+                      "status": "No Service",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 2
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 14
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 2
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 6
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 2
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 2
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 2
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 2
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 13
+                  }
+              ],
+              "last_day": {
+                  "good_service": 343,
+                  "service_change": 65,
+                  "not_good": 929,
+                  "delay": 73,
+                  "no_service": 1
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 1320,
+                      "not_good": 0,
+                      "delay": 110,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 1340,
+                      "not_good": 0,
+                      "delay": 97,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 279,
+                      "service_change": 467,
+                      "not_good": 623,
+                      "delay": 25,
+                      "no_service": 2
+                  },
+                  {
+                      "good_service": 248,
+                      "service_change": 578,
+                      "not_good": 513,
+                      "delay": 29,
+                      "no_service": 3
+                  },
+                  {
+                      "good_service": 107,
+                      "service_change": 714,
+                      "not_good": 461,
+                      "delay": 56,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 174,
+                      "service_change": 648,
+                      "not_good": 434,
+                      "delay": 32,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 117,
+                      "service_change": 608,
+                      "not_good": 418,
+                      "delay": 173,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 3.8,
+              "last_week_avg": 4.6
+          },
+          "delays": {
+              "last_day": {
+                  "count": 47,
+                  "avg_mins": 7.9,
+                  "max_mins": 15
+              },
+              "last_week": {
+                  "count": 304,
+                  "avg_mins": 7.8,
+                  "max_mins": 64
+              }
+          }
+      },
+      "7": {
+          "name": "7",
+          "color": "#a333c8",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Delay",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Delay",
+                      "count": 16
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 3
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 7
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 2
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 18
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 2
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 2
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 8
+                  }
+              ],
+              "last_day": {
+                  "good_service": 248,
+                  "service_change": 319,
+                  "not_good": 320,
+                  "delay": 550,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 480,
+                      "service_change": 0,
+                      "not_good": 851,
+                      "delay": 99,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 770,
+                      "service_change": 0,
+                      "not_good": 657,
+                      "delay": 10,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 333,
+                      "service_change": 9,
+                      "not_good": 912,
+                      "delay": 163,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 448,
+                      "service_change": 262,
+                      "not_good": 589,
+                      "delay": 131,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 423,
+                      "service_change": 3,
+                      "not_good": 774,
+                      "delay": 180,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 493,
+                      "service_change": 4,
+                      "not_good": 742,
+                      "delay": 69,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 526,
+                      "service_change": 2,
+                      "not_good": 702,
+                      "delay": 158,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 5.5,
+              "last_week_avg": 3.6
+          },
+          "delays": {
+              "last_day": {
+                  "count": 257,
+                  "avg_mins": 8.2,
+                  "max_mins": 19
+              },
+              "last_week": {
+                  "count": 597,
+                  "avg_mins": 10.8,
+                  "max_mins": 65
+              }
+          }
+      },
+      "6X": {
+          "name": "6X",
+          "color": "#21ba45",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Scheduled",
+          "statuses": {
+              "last_hour": [],
+              "last_day": {
+                  "good_service": 87,
+                  "service_change": 9,
+                  "not_good": 60,
+                  "delay": 2,
+                  "no_service": 16
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 0,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 0,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 548,
+                      "service_change": 66,
+                      "not_good": 274,
+                      "delay": 4,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 612,
+                      "service_change": 42,
+                      "not_good": 196,
+                      "delay": 16,
+                      "no_service": 17
+                  },
+                  {
+                      "good_service": 297,
+                      "service_change": 32,
+                      "not_good": 289,
+                      "delay": 6,
+                      "no_service": 214
+                  },
+                  {
+                      "good_service": 321,
+                      "service_change": 27,
+                      "not_good": 213,
+                      "delay": 4,
+                      "no_service": 228
+                  },
+                  {
+                      "good_service": 336,
+                      "service_change": 64,
+                      "not_good": 196,
+                      "delay": 29,
+                      "no_service": 215
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 1.8,
+              "last_week_avg": 2.6
+          },
+          "delays": {
+              "last_day": {
+                  "count": 9,
+                  "avg_mins": 6.4,
+                  "max_mins": 11
+              },
+              "last_week": {
+                  "count": 70,
+                  "avg_mins": 6.5,
+                  "max_mins": 13
+              }
+          }
+      },
+      "7X": {
+          "name": "7X",
+          "color": "#a333c8",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Scheduled",
+          "statuses": {
+              "last_hour": [],
+              "last_day": {
+                  "good_service": 201,
+                  "service_change": 135,
+                  "not_good": 17,
+                  "delay": 3,
+                  "no_service": 7
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 59,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 0,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 476,
+                      "service_change": 5,
+                      "not_good": 267,
+                      "delay": 7,
+                      "no_service": 9
+                  },
+                  {
+                      "good_service": 649,
+                      "service_change": 33,
+                      "not_good": 117,
+                      "delay": 5,
+                      "no_service": 8
+                  },
+                  {
+                      "good_service": 498,
+                      "service_change": 1,
+                      "not_good": 169,
+                      "delay": 72,
+                      "no_service": 8
+                  },
+                  {
+                      "good_service": 563,
+                      "service_change": 9,
+                      "not_good": 87,
+                      "delay": 1,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 623,
+                      "service_change": 2,
+                      "not_good": 112,
+                      "delay": 3,
+                      "no_service": 9
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 0.7,
+              "last_week_avg": 1.3
+          },
+          "delays": {
+              "last_day": {
+                  "count": 3,
+                  "avg_mins": 5.3,
+                  "max_mins": 6
+              },
+              "last_week": {
+                  "count": 26,
+                  "avg_mins": 16.5,
+                  "max_mins": 60
+              }
+          }
+      },
+      "A": {
+          "name": "A",
+          "color": "#2185d0",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 37
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 1
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 9
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 11
+                  }
+              ],
+              "last_day": {
+                  "good_service": 6,
+                  "service_change": 1078,
+                  "not_good": 251,
+                  "delay": 102,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 1367,
+                      "not_good": 0,
+                      "delay": 63,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 1383,
+                      "not_good": 0,
+                      "delay": 54,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 706,
+                      "not_good": 339,
+                      "delay": 361,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 21,
+                      "service_change": 442,
+                      "not_good": 707,
+                      "delay": 250,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 466,
+                      "not_good": 651,
+                      "delay": 263,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 453,
+                      "not_good": 585,
+                      "delay": 258,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 21,
+                      "service_change": 407,
+                      "not_good": 696,
+                      "delay": 264,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 6.3,
+              "last_week_avg": 7.3
+          },
+          "delays": {
+              "last_day": {
+                  "count": 36,
+                  "avg_mins": 7.2,
+                  "max_mins": 15
+              },
+              "last_week": {
+                  "count": 774,
+                  "avg_mins": 19.9,
+                  "max_mins": 197
+              }
+          }
+      },
+      "B": {
+          "name": "B",
+          "color": "#f2711c",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Scheduled",
+          "statuses": {
+              "last_hour": [],
+              "last_day": {
+                  "good_service": 24,
+                  "service_change": 30,
+                  "not_good": 175,
+                  "delay": 12,
+                  "no_service": 48
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 0,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 0,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 66,
+                      "service_change": 226,
+                      "not_good": 744,
+                      "delay": 36,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 220,
+                      "service_change": 110,
+                      "not_good": 662,
+                      "delay": 30,
+                      "no_service": 78
+                  },
+                  {
+                      "good_service": 69,
+                      "service_change": 224,
+                      "not_good": 669,
+                      "delay": 119,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 91,
+                      "service_change": 80,
+                      "not_good": 563,
+                      "delay": 187,
+                      "no_service": 51
+                  },
+                  {
+                      "good_service": 119,
+                      "service_change": 78,
+                      "not_good": 768,
+                      "delay": 34,
+                      "no_service": 48
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 4.6,
+              "last_week_avg": 6.4
+          },
+          "delays": {
+              "last_day": {
+                  "count": 3,
+                  "avg_mins": 8.3,
+                  "max_mins": 15
+              },
+              "last_week": {
+                  "count": 225,
+                  "avg_mins": 8.6,
+                  "max_mins": 49
+              }
+          }
+      },
+      "C": {
+          "name": "C",
+          "color": "#2185d0",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Good",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Not Good",
+                      "count": 38
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 21
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 1
+                  }
+              ],
+              "last_day": {
+                  "good_service": 287,
+                  "service_change": 27,
+                  "not_good": 730,
+                  "delay": 63,
+                  "no_service": 9
+              },
+              "last_week": [
+                  {
+                      "good_service": 392,
+                      "service_change": 57,
+                      "not_good": 632,
+                      "delay": 22,
+                      "no_service": 9
+                  },
+                  {
+                      "good_service": 293,
+                      "service_change": 53,
+                      "not_good": 656,
+                      "delay": 20,
+                      "no_service": 9
+                  },
+                  {
+                      "good_service": 136,
+                      "service_change": 95,
+                      "not_good": 832,
+                      "delay": 26,
+                      "no_service": 5
+                  },
+                  {
+                      "good_service": 535,
+                      "service_change": 53,
+                      "not_good": 507,
+                      "delay": 13,
+                      "no_service": 5
+                  },
+                  {
+                      "good_service": 433,
+                      "service_change": 60,
+                      "not_good": 559,
+                      "delay": 13,
+                      "no_service": 4
+                  },
+                  {
+                      "good_service": 263,
+                      "service_change": 180,
+                      "not_good": 468,
+                      "delay": 70,
+                      "no_service": 5
+                  },
+                  {
+                      "good_service": 207,
+                      "service_change": 135,
+                      "not_good": 697,
+                      "delay": 31,
+                      "no_service": 9
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 4.5,
+              "last_week_avg": 4
+          },
+          "delays": {
+              "last_day": {
+                  "count": 19,
+                  "avg_mins": 10.8,
+                  "max_mins": 33
+              },
+              "last_week": {
+                  "count": 93,
+                  "avg_mins": 8.5,
+                  "max_mins": 47
+              }
+          }
+      },
+      "D": {
+          "name": "D",
+          "color": "#f2711c",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 2
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 5
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 9
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 5
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 33
+                  }
+              ],
+              "last_day": {
+                  "good_service": 0,
+                  "service_change": 1151,
+                  "not_good": 32,
+                  "delay": 254,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 1252,
+                      "not_good": 0,
+                      "delay": 178,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 1356,
+                      "not_good": 0,
+                      "delay": 81,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 24,
+                      "service_change": 542,
+                      "not_good": 751,
+                      "delay": 72,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 46,
+                      "service_change": 534,
+                      "not_good": 698,
+                      "delay": 152,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 3,
+                      "service_change": 574,
+                      "not_good": 577,
+                      "delay": 210,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 13,
+                      "service_change": 519,
+                      "not_good": 440,
+                      "delay": 321,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 13,
+                      "service_change": 574,
+                      "not_good": 618,
+                      "delay": 174,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 7.4,
+              "last_week_avg": 7.3
+          },
+          "delays": {
+              "last_day": {
+                  "count": 117,
+                  "avg_mins": 29.1,
+                  "max_mins": 248
+              },
+              "last_week": {
+                  "count": 578,
+                  "avg_mins": 13.8,
+                  "max_mins": 248
+              }
+          }
+      },
+      "E": {
+          "name": "E",
+          "color": "#2185d0",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Good",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 13
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 6
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 4
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 9
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 1
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 8
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 3
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 11
+                  }
+              ],
+              "last_day": {
+                  "good_service": 43,
+                  "service_change": 223,
+                  "not_good": 943,
+                  "delay": 228,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 12,
+                      "service_change": 1116,
+                      "not_good": 165,
+                      "delay": 137,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 22,
+                      "service_change": 1145,
+                      "not_good": 174,
+                      "delay": 96,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 178,
+                      "service_change": 474,
+                      "not_good": 555,
+                      "delay": 199,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 216,
+                      "service_change": 412,
+                      "not_good": 586,
+                      "delay": 206,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 355,
+                      "service_change": 450,
+                      "not_good": 424,
+                      "delay": 151,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 169,
+                      "service_change": 520,
+                      "not_good": 415,
+                      "delay": 192,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 145,
+                      "service_change": 556,
+                      "not_good": 463,
+                      "delay": 224,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 6.6,
+              "last_week_avg": 4.6
+          },
+          "delays": {
+              "last_day": {
+                  "count": 100,
+                  "avg_mins": 10.3,
+                  "max_mins": 39
+              },
+              "last_week": {
+                  "count": 481,
+                  "avg_mins": 8.9,
+                  "max_mins": 44
+              }
+          }
+      },
+      "F": {
+          "name": "F",
+          "color": "#f2711c",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Good",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Not Good",
+                      "count": 8
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 21
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 3
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 12
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 14
+                  }
+              ],
+              "last_day": {
+                  "good_service": 0,
+                  "service_change": 111,
+                  "not_good": 1048,
+                  "delay": 278,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 1,
+                      "service_change": 1089,
+                      "not_good": 186,
+                      "delay": 154,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 11,
+                      "service_change": 1167,
+                      "not_good": 177,
+                      "delay": 82,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 20,
+                      "service_change": 376,
+                      "not_good": 797,
+                      "delay": 196,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 39,
+                      "service_change": 315,
+                      "not_good": 820,
+                      "delay": 256,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 34,
+                      "service_change": 435,
+                      "not_good": 700,
+                      "delay": 195,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 30,
+                      "service_change": 463,
+                      "not_good": 611,
+                      "delay": 189,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 8,
+                      "service_change": 350,
+                      "not_good": 744,
+                      "delay": 277,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 7.3,
+              "last_week_avg": 6.3
+          },
+          "delays": {
+              "last_day": {
+                  "count": 118,
+                  "avg_mins": 10.1,
+                  "max_mins": 39
+              },
+              "last_week": {
+                  "count": 730,
+                  "avg_mins": 9.9,
+                  "max_mins": 280
+              }
+          }
+      },
+      "G": {
+          "name": "G",
+          "color": "#b5cc18",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Good",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Not Good",
+                      "count": 60
+                  }
+              ],
+              "last_day": {
+                  "good_service": 371,
+                  "service_change": 0,
+                  "not_good": 1021,
+                  "delay": 45,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 127,
+                      "service_change": 0,
+                      "not_good": 1261,
+                      "delay": 42,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 409,
+                      "service_change": 0,
+                      "not_good": 987,
+                      "delay": 41,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 568,
+                      "service_change": 0,
+                      "not_good": 828,
+                      "delay": 21,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 631,
+                      "service_change": 0,
+                      "not_good": 772,
+                      "delay": 27,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 707,
+                      "service_change": 0,
+                      "not_good": 644,
+                      "delay": 29,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 752,
+                      "service_change": 0,
+                      "not_good": 546,
+                      "delay": 11,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 639,
+                      "service_change": 0,
+                      "not_good": 668,
+                      "delay": 81,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 1.6,
+              "last_week_avg": 1.7
+          },
+          "delays": {
+              "last_day": {
+                  "count": 13,
+                  "avg_mins": 44.5,
+                  "max_mins": 400
+              },
+              "last_week": {
+                  "count": 107,
+                  "avg_mins": 16.3,
+                  "max_mins": 400
+              }
+          }
+      },
+      "J": {
+          "name": "J",
+          "color": "#a5673f",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 60
+                  }
+              ],
+              "last_day": {
+                  "good_service": 22,
+                  "service_change": 854,
+                  "not_good": 494,
+                  "delay": 67,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 1248,
+                      "not_good": 140,
+                      "delay": 42,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 19,
+                      "service_change": 1221,
+                      "not_good": 129,
+                      "delay": 68,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 51,
+                      "service_change": 128,
+                      "not_good": 1156,
+                      "delay": 82,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 59,
+                      "service_change": 250,
+                      "not_good": 1055,
+                      "delay": 66,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 97,
+                      "service_change": 293,
+                      "not_good": 905,
+                      "delay": 85,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 123,
+                      "service_change": 210,
+                      "not_good": 890,
+                      "delay": 86,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 74,
+                      "service_change": 261,
+                      "not_good": 958,
+                      "delay": 95,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 3.7,
+              "last_week_avg": 2.9
+          },
+          "delays": {
+              "last_day": {
+                  "count": 25,
+                  "avg_mins": 22.2,
+                  "max_mins": 111
+              },
+              "last_week": {
+                  "count": 287,
+                  "avg_mins": 27.2,
+                  "max_mins": 188
+              }
+          }
+      },
+      "L": {
+          "name": "L",
+          "color": "#A0A0A0",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Good",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Not Good",
+                      "count": 4
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 2
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 5
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 3
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 8
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 5
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 3
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 9
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 3
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 7
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 4
+                  }
+              ],
+              "last_day": {
+                  "good_service": 112,
+                  "service_change": 98,
+                  "not_good": 1077,
+                  "delay": 150,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 152,
+                      "service_change": 32,
+                      "not_good": 1109,
+                      "delay": 137,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 88,
+                      "service_change": 30,
+                      "not_good": 1210,
+                      "delay": 109,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 224,
+                      "service_change": 79,
+                      "not_good": 967,
+                      "delay": 147,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 296,
+                      "service_change": 239,
+                      "not_good": 781,
+                      "delay": 113,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 274,
+                      "service_change": 193,
+                      "not_good": 843,
+                      "delay": 70,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 270,
+                      "service_change": 67,
+                      "not_good": 858,
+                      "delay": 114,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 39,
+                      "service_change": 117,
+                      "not_good": 913,
+                      "delay": 319,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 7.2,
+              "last_week_avg": 7.1
+          },
+          "delays": {
+              "last_day": {
+                  "count": 108,
+                  "avg_mins": 9.7,
+                  "max_mins": 41
+              },
+              "last_week": {
+                  "count": 700,
+                  "avg_mins": 14.5,
+                  "max_mins": 188
+              }
+          }
+      },
+      "M": {
+          "name": "M",
+          "color": "#f2711c",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Good",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Not Good",
+                      "count": 60
+                  }
+              ],
+              "last_day": {
+                  "good_service": 216,
+                  "service_change": 54,
+                  "not_good": 1111,
+                  "delay": 56,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 230,
+                      "service_change": 39,
+                      "not_good": 1154,
+                      "delay": 7,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 194,
+                      "service_change": 25,
+                      "not_good": 1129,
+                      "delay": 89,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 155,
+                      "service_change": 61,
+                      "not_good": 1069,
+                      "delay": 104,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 150,
+                      "service_change": 88,
+                      "not_good": 1141,
+                      "delay": 51,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 229,
+                      "service_change": 69,
+                      "not_good": 1034,
+                      "delay": 32,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 224,
+                      "service_change": 111,
+                      "not_good": 879,
+                      "delay": 79,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 201,
+                      "service_change": 47,
+                      "not_good": 1082,
+                      "delay": 49,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 4,
+              "last_week_avg": 4
+          },
+          "delays": {
+              "last_day": {
+                  "count": 17,
+                  "avg_mins": 7.4,
+                  "max_mins": 13
+              },
+              "last_week": {
+                  "count": 177,
+                  "avg_mins": 11.4,
+                  "max_mins": 122
+              }
+          }
+      },
+      "N": {
+          "name": "N",
+          "color": "#fbbd08",
+          "text_color": "#000000",
+          "alternate_name": null,
+          "status": "Not Good",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Not Good",
+                      "count": 38
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 20
+                  }
+              ],
+              "last_day": {
+                  "good_service": 0,
+                  "service_change": 521,
+                  "not_good": 684,
+                  "delay": 226,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 396,
+                      "not_good": 797,
+                      "delay": 237,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 325,
+                      "not_good": 954,
+                      "delay": 158,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 6,
+                      "service_change": 494,
+                      "not_good": 709,
+                      "delay": 191,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 44,
+                      "service_change": 305,
+                      "not_good": 948,
+                      "delay": 133,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 22,
+                      "service_change": 749,
+                      "not_good": 420,
+                      "delay": 178,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 27,
+                      "service_change": 609,
+                      "not_good": 478,
+                      "delay": 191,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 26,
+                      "service_change": 442,
+                      "not_good": 773,
+                      "delay": 132,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 9.1,
+              "last_week_avg": 7.9
+          },
+          "delays": {
+              "last_day": {
+                  "count": 84,
+                  "avg_mins": 7.8,
+                  "max_mins": 20
+              },
+              "last_week": {
+                  "count": 592,
+                  "avg_mins": 9.7,
+                  "max_mins": 87
+              }
+          }
+      },
+      "Q": {
+          "name": "Q",
+          "color": "#fbbd08",
+          "text_color": "#000000",
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 60
+                  }
+              ],
+              "last_day": {
+                  "good_service": 68,
+                  "service_change": 795,
+                  "not_good": 463,
+                  "delay": 105,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 59,
+                      "service_change": 921,
+                      "not_good": 415,
+                      "delay": 35,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 85,
+                      "service_change": 860,
+                      "not_good": 319,
+                      "delay": 173,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 154,
+                      "service_change": 267,
+                      "not_good": 919,
+                      "delay": 60,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 202,
+                      "service_change": 405,
+                      "not_good": 766,
+                      "delay": 57,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 81,
+                      "service_change": 533,
+                      "not_good": 528,
+                      "delay": 227,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 122,
+                      "service_change": 544,
+                      "not_good": 517,
+                      "delay": 122,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 136,
+                      "service_change": 479,
+                      "not_good": 667,
+                      "delay": 91,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 5.7,
+              "last_week_avg": 5
+          },
+          "delays": {
+              "last_day": {
+                  "count": 52,
+                  "avg_mins": 7.8,
+                  "max_mins": 19
+              },
+              "last_week": {
+                  "count": 305,
+                  "avg_mins": 8.5,
+                  "max_mins": 56
+              }
+          }
+      },
+      "R": {
+          "name": "R",
+          "color": "#fbbd08",
+          "text_color": "#000000",
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 6
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 1
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 12
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 2
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 7
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 3
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 13
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 1
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 10
+                  },
+                  {
+                      "status": "Delay",
+                      "count": 1
+                  },
+                  {
+                      "status": "Service Change",
+                      "count": 4
+                  }
+              ],
+              "last_day": {
+                  "good_service": 2,
+                  "service_change": 1155,
+                  "not_good": 151,
+                  "delay": 123,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 1282,
+                      "not_good": 0,
+                      "delay": 148,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 1391,
+                      "not_good": 0,
+                      "delay": 46,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 67,
+                      "service_change": 335,
+                      "not_good": 941,
+                      "delay": 57,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 259,
+                      "service_change": 202,
+                      "not_good": 927,
+                      "delay": 42,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 74,
+                      "service_change": 402,
+                      "not_good": 811,
+                      "delay": 82,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 90,
+                      "service_change": 476,
+                      "not_good": 691,
+                      "delay": 48,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 144,
+                      "service_change": 462,
+                      "not_good": 734,
+                      "delay": 33,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 7.5,
+              "last_week_avg": 5.4
+          },
+          "delays": {
+              "last_day": {
+                  "count": 58,
+                  "avg_mins": 10.1,
+                  "max_mins": 33
+              },
+              "last_week": {
+                  "count": 264,
+                  "avg_mins": 7.7,
+                  "max_mins": 33
+              }
+          }
+      },
+      "GS": {
+          "name": "S",
+          "color": "#767676",
+          "text_color": null,
+          "alternate_name": "42 St Shuttle",
+          "status": "Good Service",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Good Service",
+                      "count": 12
+                  },
+                  {
+                      "status": "No Service",
+                      "count": 1
+                  },
+                  {
+                      "status": "Not Good",
+                      "count": 42
+                  },
+                  {
+                      "status": "Good Service",
+                      "count": 5
+                  }
+              ],
+              "last_day": {
+                  "good_service": 357,
+                  "service_change": 30,
+                  "not_good": 730,
+                  "delay": 0,
+                  "no_service": 7
+              },
+              "last_week": [
+                  {
+                      "good_service": 611,
+                      "service_change": 28,
+                      "not_good": 485,
+                      "delay": 0,
+                      "no_service": 18
+                  },
+                  {
+                      "good_service": 461,
+                      "service_change": 28,
+                      "not_good": 636,
+                      "delay": 0,
+                      "no_service": 15
+                  },
+                  {
+                      "good_service": 443,
+                      "service_change": 38,
+                      "not_good": 626,
+                      "delay": 0,
+                      "no_service": 3
+                  },
+                  {
+                      "good_service": 603,
+                      "service_change": 291,
+                      "not_good": 470,
+                      "delay": 0,
+                      "no_service": 4
+                  },
+                  {
+                      "good_service": 652,
+                      "service_change": 24,
+                      "not_good": 361,
+                      "delay": 0,
+                      "no_service": 1
+                  },
+                  {
+                      "good_service": 335,
+                      "service_change": 29,
+                      "not_good": 624,
+                      "delay": 7,
+                      "no_service": 2
+                  },
+                  {
+                      "good_service": 458,
+                      "service_change": 30,
+                      "not_good": 528,
+                      "delay": 9,
+                      "no_service": 1
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 0.8,
+              "last_week_avg": 0.5
+          },
+          "delays": {
+              "last_day": {
+                  "count": 0,
+                  "avg_mins": 0,
+                  "max_mins": 0
+              },
+              "last_week": {
+                  "count": 8,
+                  "avg_mins": 22.3,
+                  "max_mins": 71
+              }
+          }
+      },
+      "FS": {
+          "name": "S",
+          "color": "#767676",
+          "text_color": null,
+          "alternate_name": "Franklin Avenue Shuttle",
+          "status": "No Service",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "No Service",
+                      "count": 60
+                  }
+              ],
+              "last_day": {
+                  "good_service": 202,
+                  "service_change": 9,
+                  "not_good": 120,
+                  "delay": 4,
+                  "no_service": 1102
+              },
+              "last_week": [
+                  {
+                      "good_service": 984,
+                      "service_change": 11,
+                      "not_good": 323,
+                      "delay": 112,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 1151,
+                      "service_change": 0,
+                      "not_good": 103,
+                      "delay": 183,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 821,
+                      "service_change": 27,
+                      "not_good": 154,
+                      "delay": 39,
+                      "no_service": 365
+                  },
+                  {
+                      "good_service": 625,
+                      "service_change": 170,
+                      "not_good": 406,
+                      "delay": 22,
+                      "no_service": 197
+                  },
+                  {
+                      "good_service": 583,
+                      "service_change": 154,
+                      "not_good": 364,
+                      "delay": 12,
+                      "no_service": 267
+                  },
+                  {
+                      "good_service": 605,
+                      "service_change": 67,
+                      "not_good": 334,
+                      "delay": 17,
+                      "no_service": 274
+                  },
+                  {
+                      "good_service": 582,
+                      "service_change": 58,
+                      "not_good": 356,
+                      "delay": 4,
+                      "no_service": 388
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 0.1,
+              "last_week_avg": 2.3
+          },
+          "delays": {
+              "last_day": {
+                  "count": 2,
+                  "avg_mins": 8.5,
+                  "max_mins": 11
+              },
+              "last_week": {
+                  "count": 57,
+                  "avg_mins": 15.9,
+                  "max_mins": 158
+              }
+          }
+      },
+      "H": {
+          "name": "S",
+          "color": "#767676",
+          "text_color": null,
+          "alternate_name": "Rockaway Park Shuttle",
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 60
+                  }
+              ],
+              "last_day": {
+                  "good_service": 149,
+                  "service_change": 1141,
+                  "not_good": 112,
+                  "delay": 35,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 1408,
+                      "not_good": 0,
+                      "delay": 22,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 1420,
+                      "not_good": 0,
+                      "delay": 17,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 543,
+                      "service_change": 291,
+                      "not_good": 259,
+                      "delay": 43,
+                      "no_service": 270
+                  },
+                  {
+                      "good_service": 728,
+                      "service_change": 40,
+                      "not_good": 389,
+                      "delay": 13,
+                      "no_service": 250
+                  },
+                  {
+                      "good_service": 615,
+                      "service_change": 13,
+                      "not_good": 465,
+                      "delay": 35,
+                      "no_service": 252
+                  },
+                  {
+                      "good_service": 634,
+                      "service_change": 9,
+                      "not_good": 228,
+                      "delay": 171,
+                      "no_service": 255
+                  },
+                  {
+                      "good_service": 728,
+                      "service_change": 72,
+                      "not_good": 312,
+                      "delay": 18,
+                      "no_service": 258
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 0.3,
+              "last_week_avg": 0.3
+          },
+          "delays": {
+              "last_day": {
+                  "count": 13,
+                  "avg_mins": 11.4,
+                  "max_mins": 17
+              },
+              "last_week": {
+                  "count": 77,
+                  "avg_mins": 13.2,
+                  "max_mins": 120
+              }
+          }
+      },
+      "SI": {
+          "name": "SIR",
+          "color": "#2185d0",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Service Change",
+          "statuses": {
+              "last_hour": [
+                  {
+                      "status": "Service Change",
+                      "count": 60
+                  }
+              ],
+              "last_day": {
+                  "good_service": 252,
+                  "service_change": 976,
+                  "not_good": 117,
+                  "delay": 92,
+                  "no_service": 0
+              },
+              "last_week": [
+                  {
+                      "good_service": 60,
+                      "service_change": 1300,
+                      "not_good": 3,
+                      "delay": 67,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 1020,
+                      "service_change": 0,
+                      "not_good": 401,
+                      "delay": 16,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 751,
+                      "service_change": 59,
+                      "not_good": 452,
+                      "delay": 155,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 890,
+                      "service_change": 44,
+                      "not_good": 295,
+                      "delay": 201,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 976,
+                      "service_change": 49,
+                      "not_good": 297,
+                      "delay": 58,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 947,
+                      "service_change": 46,
+                      "not_good": 232,
+                      "delay": 84,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 866,
+                      "service_change": 60,
+                      "not_good": 419,
+                      "delay": 43,
+                      "no_service": 0
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": -5.5,
+              "last_week_avg": -3.3
+          },
+          "delays": {
+              "last_day": {
+                  "count": 21,
+                  "avg_mins": 14.4,
+                  "max_mins": 37
+              },
+              "last_week": {
+                  "count": 304,
+                  "avg_mins": 15,
+                  "max_mins": 171
+              }
+          }
+      },
+      "W": {
+          "name": "W",
+          "color": "#fbbd08",
+          "text_color": "#000000",
+          "alternate_name": null,
+          "status": "Not Scheduled",
+          "statuses": {
+              "last_hour": [],
+              "last_day": {
+                  "good_service": 12,
+                  "service_change": 51,
+                  "not_good": 160,
+                  "delay": 3,
+                  "no_service": 96
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 0,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 0,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 65,
+                      "service_change": 68,
+                      "not_good": 852,
+                      "delay": 86,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 150,
+                      "service_change": 65,
+                      "not_good": 771,
+                      "delay": 26,
+                      "no_service": 89
+                  },
+                  {
+                      "good_service": 124,
+                      "service_change": 85,
+                      "not_good": 722,
+                      "delay": 16,
+                      "no_service": 90
+                  },
+                  {
+                      "good_service": 107,
+                      "service_change": 87,
+                      "not_good": 642,
+                      "delay": 48,
+                      "no_service": 89
+                  },
+                  {
+                      "good_service": 143,
+                      "service_change": 60,
+                      "not_good": 730,
+                      "delay": 13,
+                      "no_service": 96
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 1.5,
+              "last_week_avg": 3.9
+          },
+          "delays": {
+              "last_day": {
+                  "count": 4,
+                  "avg_mins": 6.3,
+                  "max_mins": 7
+              },
+              "last_week": {
+                  "count": 144,
+                  "avg_mins": 6.5,
+                  "max_mins": 16
+              }
+          }
+      },
+      "Z": {
+          "name": "Z",
+          "color": "#a5673f",
+          "text_color": null,
+          "alternate_name": null,
+          "status": "Not Scheduled",
+          "statuses": {
+              "last_hour": [],
+              "last_day": {
+                  "good_service": 0,
+                  "service_change": 3,
+                  "not_good": 0,
+                  "delay": 0,
+                  "no_service": 6
+              },
+              "last_week": [
+                  {
+                      "good_service": 0,
+                      "service_change": 0,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 0,
+                      "service_change": 0,
+                      "not_good": 0,
+                      "delay": 0,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 168,
+                      "service_change": 46,
+                      "not_good": 89,
+                      "delay": 0,
+                      "no_service": 3
+                  },
+                  {
+                      "good_service": 184,
+                      "service_change": 24,
+                      "not_good": 87,
+                      "delay": 0,
+                      "no_service": 7
+                  },
+                  {
+                      "good_service": 107,
+                      "service_change": 29,
+                      "not_good": 132,
+                      "delay": 2,
+                      "no_service": 7
+                  },
+                  {
+                      "good_service": 118,
+                      "service_change": 43,
+                      "not_good": 92,
+                      "delay": 4,
+                      "no_service": 0
+                  },
+                  {
+                      "good_service": 212,
+                      "service_change": 29,
+                      "not_good": 49,
+                      "delay": 0,
+                      "no_service": 6
+                  }
+              ]
+          },
+          "max_headway_discrepancy": {
+              "last_day_avg": 0,
+              "last_week_avg": -1.3
+          },
+          "delays": {
+              "last_day": {
+                  "count": 0,
+                  "avg_mins": 0,
+                  "max_mins": 0
+              },
+              "last_week": {
+                  "count": 8,
+                  "avg_mins": 7.5,
+                  "max_mins": 11
+              }
+          }
+      }
+  },
+  "timestamp": "2019-05-18T18:25:41-04:00"
+}

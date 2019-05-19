@@ -58,7 +58,7 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TrainCell" rowHeight="90" id="5Ce-cZ-aWO" customClass="TrainCell" customModule="GoodService" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Ce-cZ-aWO" id="B7O-5f-Ewc">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Ce-cZ-aWO" id="B7O-5f-Ewc">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -79,7 +79,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Service Change" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KF-nU-RJt">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Change" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KF-nU-RJt">
                                                     <rect key="frame" x="281" y="61.5" width="117" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                                     <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -91,6 +91,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="A4d-qz-Vhk" secondAttribute="bottom" constant="20" id="2dT-81-zv7"/>
                                                 <constraint firstItem="DI7-J4-77r" firstAttribute="top" secondItem="A4d-qz-Vhk" secondAttribute="top" id="FuQ-BB-Bsh"/>
                                                 <constraint firstItem="A4d-qz-Vhk" firstAttribute="top" secondItem="B7O-5f-Ewc" secondAttribute="top" constant="20" id="Jl4-7j-bge"/>
+                                                <constraint firstItem="5KF-nU-RJt" firstAttribute="top" secondItem="B7O-5f-Ewc" secondAttribute="top" constant="61.5" id="KDM-UG-hCn"/>
                                                 <constraint firstItem="DI7-J4-77r" firstAttribute="leading" secondItem="A4d-qz-Vhk" secondAttribute="trailing" constant="10" id="Oo4-dM-w8z"/>
                                                 <constraint firstItem="A4d-qz-Vhk" firstAttribute="leading" secondItem="B7O-5f-Ewc" secondAttribute="leading" constant="16" id="VmW-Nz-Duo"/>
                                                 <constraint firstAttribute="bottom" secondItem="5KF-nU-RJt" secondAttribute="bottom" constant="8" id="e47-U3-CUG"/>
