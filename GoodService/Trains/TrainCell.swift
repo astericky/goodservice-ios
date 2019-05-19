@@ -14,6 +14,13 @@ class TrainCell: UITableViewCell {
   @IBOutlet weak var trainDesinationLabel: UILabel!
   @IBOutlet weak var serviceStatusLabel: UILabel!
   
+  var train: Train? {
+    didSet {
+      trainLabel.text = train?.name
+      serviceStatusLabel.text = train?.status
+    }
+  }
+  
   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
     super.init(style: style, reuseIdentifier: reuseIdentifier)
   }

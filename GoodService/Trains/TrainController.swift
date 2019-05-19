@@ -19,14 +19,18 @@ class TrainController: UIViewController, UITableViewDelegate, UITableViewDataSou
     super.viewDidLoad()
     tableView.dataSource = self
     tableView.delegate = self
+    getTrainData()
+  }
+  
+  // MARK: - Train Networking
+  func getTrainData() {
     let trainAPI = TrainAPI()
     trainAPI.getTrainStatus(completion: getTrainData)
   }
   
-  // MARK: - Train Networking
   func getTrainData(with trainData: TrainData) {
     trains = trainData.status.getTrains()
-    self.tableView.reloadData()
+    tableView.reloadData()
   }
   
   // MARK: - Table view data source
@@ -41,7 +45,9 @@ class TrainController: UIViewController, UITableViewDelegate, UITableViewDataSou
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: trainCellIdentifier, for: indexPath) as! TrainCell
 
-    cell.trainLabel!.text = trains[indexPath.row].name
+    cell.train = trains[indexPath.row]
+    #warning("Dont forget to add cell delegate. Does tableviewcell already have a delegate")
+//    cell.delegate = self
     
     return cell
   }

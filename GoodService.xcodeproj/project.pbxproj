@@ -120,8 +120,8 @@
 		2AA86D65229075D000C10FD7 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				2AA86D662290761B00C10FD7 /* Trains.storyboard */,
 				2A29DE23228F2EBD00C1CDD0 /* Main.storyboard */,
+				2AA86D662290761B00C10FD7 /* Trains.storyboard */,
 				2AA86D622290750B00C10FD7 /* Lines.storyboard */,
 			);
 			path = Storyboards;
