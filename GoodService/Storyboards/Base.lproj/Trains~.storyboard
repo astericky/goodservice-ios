@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ppt-M2-hu6">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trains-->
+        <scene sceneID="8Xj-k4-zpe">
+            <objects>
+                <tableViewController id="CGf-I7-Tsa" customClass="TrainController" customModule="GoodService" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="KUo-we-SNO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.46999999999999997" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="0.46999999999999997" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TrainCell" rowHeight="90" id="x7W-0N-eJC" customClass="TrainCell" customModule="GoodService" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="x7W-0N-eJC" id="PCe-wR-kW0">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xr-eS-dPg">
+                                            <rect key="frame" x="16" y="8.5" width="76" height="76"/>
+                                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="76" id="bwb-IN-Df8"/>
+                                                <constraint firstAttribute="width" constant="76" id="pvk-5w-IlP"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Change" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dB-nj-65b">
+                                            <rect key="frame" x="280" y="54.5" width="122" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="122" id="3Wr-c7-GON"/>
+                                                <constraint firstAttribute="height" constant="24" id="Mbm-9h-sOA"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                            <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rockaway Park" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jeK-vM-WcN">
+                                            <rect key="frame" x="100" y="19.5" width="286" height="20"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.46999999999999997" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="2dB-nj-65b" secondAttribute="bottom" constant="8" id="37a-cF-jMj"/>
+                                        <constraint firstItem="2dB-nj-65b" firstAttribute="trailing" secondItem="PCe-wR-kW0" secondAttribute="trailingMargin" constant="8" id="5jI-5A-3v8"/>
+                                        <constraint firstItem="7xr-eS-dPg" firstAttribute="top" secondItem="PCe-wR-kW0" secondAttribute="top" constant="8" id="FbW-59-kKa"/>
+                                        <constraint firstItem="jeK-vM-WcN" firstAttribute="leading" secondItem="7xr-eS-dPg" secondAttribute="trailing" constant="8" id="J3W-ng-bYY"/>
+                                        <constraint firstItem="jeK-vM-WcN" firstAttribute="top" secondItem="PCe-wR-kW0" secondAttribute="topMargin" constant="8" id="Vhc-vU-xAc"/>
+                                        <constraint firstAttribute="bottom" secondItem="7xr-eS-dPg" secondAttribute="bottom" constant="8" id="fq3-dT-gGQ"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="jeK-vM-WcN" secondAttribute="trailing" constant="8" id="sku-L2-OSe"/>
+                                        <constraint firstItem="2dB-nj-65b" firstAttribute="top" secondItem="PCe-wR-kW0" secondAttribute="top" constant="54" id="uGL-7q-Ywq"/>
+                                        <constraint firstItem="7xr-eS-dPg" firstAttribute="leading" secondItem="PCe-wR-kW0" secondAttribute="leading" constant="16" id="zDn-xH-qaj"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.17999999999999999" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="serviceStatusLabel" destination="2dB-nj-65b" id="GWd-uA-cn3"/>
+                                    <outlet property="trainDesinationLabel" destination="jeK-vM-WcN" id="duu-Z2-LLR"/>
+                                    <outlet property="trainLabel" destination="7xr-eS-dPg" id="WSh-oH-ZAK"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="CGf-I7-Tsa" id="GKb-2a-SaR"/>
+                            <outlet property="delegate" destination="CGf-I7-Tsa" id="Qgv-lI-eEu"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Trains" id="lXr-ij-L8w"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Klo-lv-Nmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1531.8840579710145" y="-335.49107142857139"/>
+        </scene>
+        <!--Trains-->
+        <scene sceneID="xNY-oL-rLh">
+            <objects>
+                <navigationController id="KrF-aa-hHI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Trains" id="huI-My-6dp"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zn2-C9-Dq5">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CGf-I7-Tsa" kind="relationship" relationship="rootViewController" id="z35-YU-fZ5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pvd-yA-ihy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="614" y="-335"/>
+        </scene>
+        <!--goodservice.io-->
+        <scene sceneID="uLh-jI-5zX">
+            <objects>
+                <tabBarController title="goodservice.io" id="ppt-M2-hu6" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="D7Z-v5-kM2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="KrF-aa-hHI" kind="relationship" relationship="viewControllers" id="gf3-Mq-aAn"/>
+                        <segue destination="3YO-cN-SuQ" kind="relationship" relationship="viewControllers" id="l9x-Mj-Wg2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GQq-99-HZY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-302" y="3"/>
+        </scene>
+        <!--Lines-->
+        <scene sceneID="aOI-4c-jyl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Lines" id="3YO-cN-SuQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="NgB-xp-ZqF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u0w-Tk-uur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="601" y="417"/>
+        </scene>
+    </scenes>
+</document>
