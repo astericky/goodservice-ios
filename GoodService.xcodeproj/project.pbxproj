@@ -37,7 +37,6 @@
 		2AA86D632290750B00C10FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GoodService/Base.lproj/Lines.storyboard; sourceTree = "<group>"; };
 		2AA86D672290761B00C10FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GoodService/Storyboards/Base.lproj/Trains.storyboard; sourceTree = "<group>"; };
 		2AA86D6B229097C200C10FD7 /* TrainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainData.swift; sourceTree = "<group>"; };
-		2AA86D6D229098A600C10FD7 /* TrainCodableTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TrainCodableTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2AA86D6F2290C3BE00C10FD7 /* TrainAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainAPI.swift; sourceTree = "<group>"; };
 		2AA86D712290CCF100C10FD7 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
 		2AA86D732290CD3200C10FD7 /* Trains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trains.swift; sourceTree = "<group>"; };
@@ -109,7 +108,6 @@
 		2AA86D61229074A200C10FD7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2AA86D6D229098A600C10FD7 /* TrainCodableTest.playground */,
 				2AA86D6B229097C200C10FD7 /* TrainData.swift */,
 				2AA86D732290CD3200C10FD7 /* Trains.swift */,
 				2AA86D712290CCF100C10FD7 /* Train.swift */,

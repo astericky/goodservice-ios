@@ -12,10 +12,12 @@ struct Train: Codable {
   let name: String
   let status: String
   let alternateName: String?
+  let color: String?
   
   enum CodingKeys: String, CodingKey {
     case name
     case status
     case alternateName = "alternate_name"
+    case color
   }
 }
