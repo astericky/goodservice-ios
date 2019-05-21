@@ -17,6 +17,12 @@ class TrainCell: UITableViewCell {
   var train: Train? {
     didSet {
       trainLabel.text = train?.name
+      if let trainLabelBGColor = train?.color {
+        trainLabel.backgroundColor = UIColor(hex: "\(trainLabelBGColor)ff")
+      } else {
+        trainLabel.backgroundColor = UIColor(hex: "#767676FF")
+      }
+
       trainDesinationLabel.text = train?.alternateName ?? ""
       serviceStatusLabel.text = train?.status
     }
