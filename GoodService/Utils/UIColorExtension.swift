@@ -39,32 +39,4 @@ extension UIColor {
     return nil
   }
   
-//  static func hexToRGB(red: Int, green: Int, blue: Int) -> UIColor {
-//    return UIColor(red: CGFloat(red)/255, green: CGFloat(green)/255, blue: CGFloat(blue)/255, alpha: 0)
-//  }
-//  
-//  static func hexToRGB(red: String, green: String, blue: String) -> UIColor {
-//    let redInt = Int(red) ?? 0
-//    let greenInt = Int(green) ?? 0
-//    let blueInt = Int(blue) ?? 0
-//    
-//    return hexToRGB(red: redInt, green: greenInt, blue: blueInt)
-//  }
-//  
-//  static func toRGBFrom(newHex: String) -> UIColor? {
-//    var hex = newHex;
-//    if (hex.first == "#") {
-//      hex.removeFirst()
-//    } else { return nil }
-//    
-//    let redIndex = hex.index(hex.startIndex, offsetBy: 2)
-//    let greenIndex = hex.index(redIndex, offsetBy: 2)
-//    let blueIndex  = hex.index(greenIndex, offsetBy: 2)
-//    
-//    let red = "0x\(hex[..<redIndex])"
-//    let green = "0x\(hex[redIndex..<greenIndex])"
-//    let blue = "0x\(hex[greenIndex..<blueIndex])"
-//    
-//    return hexToRGB(red: red, green: green, blue: blue)
-//  }
 }
