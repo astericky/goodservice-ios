@@ -21,8 +21,11 @@ class TrainLabel: UILabel {
   }
   
   func setupStyle() {
-    backgroundColor = .red
+    frame = CGRect(x: 0, y: 0, width: 50, height: 50)
     layer.masksToBounds = true
     layer.cornerRadius = frame.size.height / 2
+    backgroundColor = .red
+    textColor = .white
+    textAlignment = .center
   }
 }

@@ -11,6 +11,8 @@
 		2A29DE25228F2EBD00C1CDD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A29DE23228F2EBD00C1CDD0 /* Main.storyboard */; };
 		2A29DE27228F2EBD00C1CDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A29DE26228F2EBD00C1CDD0 /* Assets.xcassets */; };
 		2A29DE2A228F2EBD00C1CDD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A29DE28228F2EBD00C1CDD0 /* LaunchScreen.storyboard */; };
+		2A9A95DB229C4F130002BC23 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A95DA229C4F130002BC23 /* MainTabBarController.swift */; };
+		2A9A95DD229C5AD90002BC23 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A95DC229C5AD90002BC23 /* UIViewExtension.swift */; };
 		2AA86D3A228F905C00C10FD7 /* TrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D39228F905C00C10FD7 /* TrainController.swift */; };
 		2AA86D3C228F916F00C10FD7 /* LinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D3B228F916F00C10FD7 /* LinesViewController.swift */; };
 		2AA86D3E228F993B00C10FD7 /* TrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D3D228F993B00C10FD7 /* TrainCell.swift */; };
@@ -22,6 +24,7 @@
 		2AA86D742290CD3200C10FD7 /* Trains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D732290CD3200C10FD7 /* Trains.swift */; };
 		2AA86D772291BB9500C10FD7 /* TrainLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D762291BB9500C10FD7 /* TrainLabel.swift */; };
 		2AA86D792291C23100C10FD7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D782291C23100C10FD7 /* UIColorExtension.swift */; };
+		2AD4E7AF229B023F00602A01 /* TrainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD4E7AE229B023F00602A01 /* TrainDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,8 @@
 		2A29DE26228F2EBD00C1CDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A29DE29228F2EBD00C1CDD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A29DE2B228F2EBD00C1CDD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9A95DA229C4F130002BC23 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2A9A95DC229C5AD90002BC23 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		2AA86D39228F905C00C10FD7 /* TrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainController.swift; sourceTree = "<group>"; };
 		2AA86D3B228F916F00C10FD7 /* LinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesViewController.swift; sourceTree = "<group>"; };
 		2AA86D3D228F993B00C10FD7 /* TrainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCell.swift; sourceTree = "<group>"; };
@@ -42,6 +47,7 @@
 		2AA86D732290CD3200C10FD7 /* Trains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trains.swift; sourceTree = "<group>"; };
 		2AA86D762291BB9500C10FD7 /* TrainLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainLabel.swift; sourceTree = "<group>"; };
 		2AA86D782291C23100C10FD7 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		2AD4E7AE229B023F00602A01 /* TrainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				2AA86D38228F903B00C10FD7 /* Lines */,
-				2AA86D37228F902E00C10FD7 /* Trains */,
+				2AA86D37228F902E00C10FD7 /* Train */,
 				2AA86D61229074A200C10FD7 /* Models */,
 				2AA86D6E2290C35E00C10FD7 /* Networking */,
-				2AA86D65229075D000C10FD7 /* Storyboards */,
 				2AA86D752291BB2500C10FD7 /* Utils */,
+				2AA86D65229075D000C10FD7 /* Storyboards */,
+				2A9A95DA229C4F130002BC23 /* MainTabBarController.swift */,
 				2A29DE1F228F2EBC00C1CDD0 /* AppDelegate.swift */,
 				2A29DE26228F2EBD00C1CDD0 /* Assets.xcassets */,
 				2A29DE28228F2EBD00C1CDD0 /* LaunchScreen.storyboard */,
@@ -88,13 +95,14 @@
 			path = GoodService;
 			sourceTree = "<group>";
 		};
-		2AA86D37228F902E00C10FD7 /* Trains */ = {
+		2AA86D37228F902E00C10FD7 /* Train */ = {
 			isa = PBXGroup;
 			children = (
 				2AA86D39228F905C00C10FD7 /* TrainController.swift */,
 				2AA86D3D228F993B00C10FD7 /* TrainCell.swift */,
+				2AD4E7AE229B023F00602A01 /* TrainDetailViewController.swift */,
 			);
-			path = Trains;
+			path = Train;
 			sourceTree = "<group>";
 		};
 		2AA86D38228F903B00C10FD7 /* Lines */ = {
@@ -138,6 +146,7 @@
 			children = (
 				2AA86D762291BB9500C10FD7 /* TrainLabel.swift */,
 				2AA86D782291C23100C10FD7 /* UIColorExtension.swift */,
+				2A9A95DC229C5AD90002BC23 /* UIViewExtension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -216,12 +225,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AA86D742290CD3200C10FD7 /* Trains.swift in Sources */,
+				2AD4E7AF229B023F00602A01 /* TrainDetailViewController.swift in Sources */,
+				2A9A95DB229C4F130002BC23 /* MainTabBarController.swift in Sources */,
 				2AA86D3E228F993B00C10FD7 /* TrainCell.swift in Sources */,
 				2AA86D772291BB9500C10FD7 /* TrainLabel.swift in Sources */,
 				2A29DE20228F2EBC00C1CDD0 /* AppDelegate.swift in Sources */,
 				2AA86D722290CCF100C10FD7 /* Train.swift in Sources */,
 				2AA86D6C229097C200C10FD7 /* TrainData.swift in Sources */,
 				2AA86D702290C3BE00C10FD7 /* TrainAPI.swift in Sources */,
+				2A9A95DD229C5AD90002BC23 /* UIViewExtension.swift in Sources */,
 				2AA86D792291C23100C10FD7 /* UIColorExtension.swift in Sources */,
 				2AA86D3C228F916F00C10FD7 /* LinesViewController.swift in Sources */,
 				2AA86D3A228F905C00C10FD7 /* TrainController.swift in Sources */,

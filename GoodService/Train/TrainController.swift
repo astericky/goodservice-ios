@@ -8,19 +8,27 @@
 
 import UIKit
 
-class TrainController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-  
-  @IBOutlet weak var tableView: UITableView!
+class TrainController: UITableViewController {
   
   let trainCellIdentifier = "TrainCell"
   var trains = [Train]()
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    tableView.dataSource = self
-    tableView.delegate = self
+    
+    navigationController?.navigationBar.prefersLargeTitles = true
+    navigationItem.title = "Trains"
+    tableView.register(TrainCell.self, forCellReuseIdentifier: trainCellIdentifier)
+    
     getTrainData()
   }
+  
+//  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//    let trainDetailViewController = segue.destination as! TrainDetailViewController
+//    if let indexPath = tableView.indexPath(for: sender as! TrainCell) {
+//      trainDetailViewController.train = trains[indexPath.row]
+//    }
+//  }
   
   // MARK: - Train Networking
   func getTrainData() {
@@ -34,21 +42,20 @@ class TrainController: UIViewController, UITableViewDelegate, UITableViewDataSou
   }
   
   // MARK: - Table view data source
-  func numberOfSections(in tableView: UITableView) -> Int {
+  override func numberOfSections(in tableView: UITableView) -> Int {
     return 1
   }
   
-  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return trains.count
   }
   
-  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: trainCellIdentifier, for: indexPath) as! TrainCell
-
+    
     cell.train = trains[indexPath.row]
-    #warning("Dont forget to add cell delegate. Does tableviewcell already have a delegate")
-//    cell.delegate = self
     
     return cell
   }
+  
 }
