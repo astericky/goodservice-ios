@@ -14,10 +14,38 @@ class TrainDetailViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    view.backgroundColor = .white
+    let trainLabel = TrainLabel()
+    trainLabel.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+    trainLabel.layer.masksToBounds = true
+    trainLabel.layer.cornerRadius = trainLabel.frame.size.height / 2
+    if let trainLabelBGColor = train?.color {
+      trainLabel.backgroundColor = UIColor(hex: "\(trainLabelBGColor)ff")
+    } else {
+      trainLabel.backgroundColor = UIColor(hex: "#767676FF")
+    }
+    trainLabel.text = train?.name
+
+    navigationItem.titleView = trainLabel
+
+    navigationItem.largeTitleDisplayMode = .never
+    
+//    navigationItem.title = train?.name  
+  
+//    if let trainLabelBGColor = train?.color {
+//      navigationController?.navigationBar.barTintColor = UIColor(hex: "\(trainLabelBGColor)ff")
+//      navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+//    } else {
+//      navigationController?.navigationBar.barTintColor = UIColor(hex: "#767676FF")
+//    }
+  
+    
+    setupView()
   }
   
-  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//    navigationController?.navigationBar.prefersLargeTitles = true
+  func setupView() {
+    
   }
   
 }

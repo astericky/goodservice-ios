@@ -19,6 +19,7 @@ class TrainController: UITableViewController {
     navigationController?.navigationBar.prefersLargeTitles = true
     navigationItem.title = "Trains"
     tableView.register(TrainCell.self, forCellReuseIdentifier: trainCellIdentifier)
+    tableView.allowsMultipleSelection = false
     
     getTrainData()
   }
@@ -56,6 +57,12 @@ class TrainController: UITableViewController {
     cell.train = trains[indexPath.row]
     
     return cell
+  }
+  
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let trainDetails = TrainDetailViewController()
+    trainDetails.train = trains[indexPath.row]
+    navigationController?.pushViewController(trainDetails, animated: true)
   }
   
 }

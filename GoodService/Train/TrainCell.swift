@@ -73,4 +73,13 @@ class TrainCell: UITableViewCell {
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
   }
+  
+  #warning("TODO: Update UITableCell selection. Press down and hold removes trainLabel background color.")
+  override func setSelected(_ selected: Bool, animated: Bool) {
+    if selected  {
+      contentView.backgroundColor = UIColor(red: 221/255, green: 221/255, blue: 221/255, alpha: 0.5)
+    } else {
+      contentView.backgroundColor = .white
+    }
+  }
 }
