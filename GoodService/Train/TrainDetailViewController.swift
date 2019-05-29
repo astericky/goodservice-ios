@@ -12,6 +12,17 @@ class TrainDetailViewController: UIViewController {
   
   var train: Train?
   
+  lazy  var segmentedControl: UISegmentedControl = {
+    let items = ["Current Status", "Stats"]
+    let control = UISegmentedControl(items: items)
+    control.addTarget(self, action: #selector(handleSegmentChanged), for: .touchUpInside)
+    return control
+  }()
+  
+  @objc fileprivate func handleSegmentChanged(_ sender: UISegmentedControl) {
+    print(sender.selectedSegmentIndex)
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -31,7 +42,7 @@ class TrainDetailViewController: UIViewController {
 
     navigationItem.largeTitleDisplayMode = .never
     
-//    navigationItem.title = train?.name  
+//    navigationItem.title = train?.name
   
 //    if let trainLabelBGColor = train?.color {
 //      navigationController?.navigationBar.barTintColor = UIColor(hex: "\(trainLabelBGColor)ff")
@@ -45,7 +56,8 @@ class TrainDetailViewController: UIViewController {
   }
   
   func setupView() {
-    
+    view.addSubview(segmentedControl)
+    segmentedControl.anchor(top: view.topAnchor, leading: view.leadingAnchor, bottom: nil, trailing: view.trailingAnchor, padding: .init(top: 100, left: 16, bottom: 0, right: 16))
   }
   
 }
