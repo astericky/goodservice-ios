@@ -12,15 +12,30 @@ class TrainDetailViewController: UIViewController {
   
   var train: Train?
   
-  lazy  var segmentedControl: UISegmentedControl = {
+  #warning("Create and ContentView for segmentedControl")
+  lazy var segmentedControl: UISegmentedControl = {
     let items = ["Current Status", "Stats"]
     let control = UISegmentedControl(items: items)
+    control.selectedSegmentIndex = 0
     control.addTarget(self, action: #selector(handleSegmentChanged), for: .touchUpInside)
     return control
   }()
   
   @objc fileprivate func handleSegmentChanged(_ sender: UISegmentedControl) {
     print(sender.selectedSegmentIndex)
+    if sender.selectedSegmentIndex == 0 {
+      showCurrentStatusView()
+    } else if sender.selectedSegmentIndex == 1 {
+      showStatsView()
+    }
+  }
+  
+  fileprivate func showCurrentStatusView() {
+  
+  }
+  
+  fileprivate func showStatsView() {
+    
   }
   
   override func viewDidLoad() {
