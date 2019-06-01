@@ -21,7 +21,7 @@ class TrainController: UITableViewController {
     tableView.register(TrainCell.self, forCellReuseIdentifier: trainCellIdentifier)
     tableView.allowsMultipleSelection = false
     
-    getTrainData()
+    getTrainInfo()
   }
   
 //  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -32,13 +32,13 @@ class TrainController: UITableViewController {
 //  }
   
   // MARK: - Train Networking
-  func getTrainData() {
+  func getTrainInfo() {
     let trainAPI = TrainAPI()
-    trainAPI.getTrainStatus(completion: getTrainData)
+    trainAPI.getTrainInfo(completion: getTrains)
   }
   
-  func getTrainData(with trainData: TrainData) {
-    trains = trainData.status.getTrains()
+  func getTrains(from trainInfo: TrainInfo) {
+    trains = trainInfo.routes
     tableView.reloadData()
   }
   

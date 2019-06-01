@@ -13,6 +13,7 @@
 		2A29DE2A228F2EBD00C1CDD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A29DE28228F2EBD00C1CDD0 /* LaunchScreen.storyboard */; };
 		2A9A95DB229C4F130002BC23 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A95DA229C4F130002BC23 /* MainTabBarController.swift */; };
 		2A9A95DD229C5AD90002BC23 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A95DC229C5AD90002BC23 /* UIViewExtension.swift */; };
+		2A9A95FD22A2EF100002BC23 /* TrainInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A95FC22A2EF100002BC23 /* TrainInfo.swift */; };
 		2AA86D3A228F905C00C10FD7 /* TrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D39228F905C00C10FD7 /* TrainController.swift */; };
 		2AA86D3C228F916F00C10FD7 /* LinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D3B228F916F00C10FD7 /* LinesViewController.swift */; };
 		2AA86D3E228F993B00C10FD7 /* TrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA86D3D228F993B00C10FD7 /* TrainCell.swift */; };
@@ -36,6 +37,7 @@
 		2A29DE2B228F2EBD00C1CDD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A9A95DA229C4F130002BC23 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2A9A95DC229C5AD90002BC23 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		2A9A95FC22A2EF100002BC23 /* TrainInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainInfo.swift; sourceTree = "<group>"; };
 		2AA86D39228F905C00C10FD7 /* TrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainController.swift; sourceTree = "<group>"; };
 		2AA86D3B228F916F00C10FD7 /* LinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesViewController.swift; sourceTree = "<group>"; };
 		2AA86D3D228F993B00C10FD7 /* TrainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCell.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				2AA86D6B229097C200C10FD7 /* TrainData.swift */,
+				2A9A95FC22A2EF100002BC23 /* TrainInfo.swift */,
 				2AA86D732290CD3200C10FD7 /* Trains.swift */,
 				2AA86D712290CCF100C10FD7 /* Train.swift */,
 			);
@@ -237,6 +240,7 @@
 				2AA86D792291C23100C10FD7 /* UIColorExtension.swift in Sources */,
 				2AA86D3C228F916F00C10FD7 /* LinesViewController.swift in Sources */,
 				2AA86D3A228F905C00C10FD7 /* TrainController.swift in Sources */,
+				2A9A95FD22A2EF100002BC23 /* TrainInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
